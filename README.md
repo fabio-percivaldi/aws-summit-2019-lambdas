@@ -13,3 +13,9 @@ with the dotenv plugin we can define .env files for different environment with t
 ## Warm-up plugin
 
 In the .yml file there is also the basic setup for the warm-up plugin, in order to avoid the cold start problem of lambdas
+
+## Deploy
+
+### sls deploy --stage $stageName --env $envName
+
+use the --env option if you have different .env file, for example .env.prod 
