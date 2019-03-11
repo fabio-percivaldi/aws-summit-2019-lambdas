@@ -1,0 +1,22 @@
+{
+  "name": "ora-lambdas",
+  "version": "1.0.0",
+  "description": "Lambda functions for CRUD operation on table entities ",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git-codecommit.eu-central-1.amazonaws.com/v1/repos/Ora.Lambdas"
+  },
+  "author": "Deloitte",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^6.1.0",
+    "mysql": "^2.16.0"
+  },
+  "devDependencies": {
+    "serverless-dotenv-plugin": "^2.0.1"
+  }
+}
